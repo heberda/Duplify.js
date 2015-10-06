@@ -38,8 +38,8 @@
     // Plugin defaults – added as a property on our plugin function.
     $.fn.duplify.defaults = {
         canRemove: true,
-        htmlPrefix: 'StatementOfWork',
-        listName: 'LineItems',
+        htmlPrefix: undefined,
+        listName: undefined,
         newItemClass: 'link-hover',
         removeItemClass: 'link-hover'
     };
