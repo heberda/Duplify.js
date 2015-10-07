@@ -5,3 +5,5 @@ Have you ever wanted a quick way of posting List<T> in MVC and wondered how to d
 
 - Jquery > 1.8
 - Bootstrap > 2.0 (For Glyphicons)
+
+#### Keen to get started? [click here](https://github.com/heberda/Duplify.js/blob/master/GettingStarted.md)
