@@ -6,9 +6,7 @@
 
         $table.find('th:last').after('<th><span id="new-lineitem" class="glyphicon glyphicon-plus ' + opts.newItemClass + '"></span></th>');
         $table.find('tbody tr:first').append($('<td>'));
-        $table.
-
-
+        
         $("#new-lineitem").bind('click', function () {
             var $newRow = $(this).closest('table').find('tbody tr:first').clone().appendTo('tbody');
             $newRow.find('input').val('');
