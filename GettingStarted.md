@@ -33,9 +33,9 @@ $('table:first').duplify();
 
 Now unfortunately in this example that won't work, we forgot to tell it what the list was called, let's try again...
 
-'''
+```
 $('table:first').duplify({listName: "Persons"});
-'''
+```
 
 # The Defaults
 
